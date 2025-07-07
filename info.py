@@ -53,19 +53,19 @@ FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://Govieed1:Govieed1@
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "jisshu")
 
 # Other Channel's
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002686704747"))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002049582775"))
 DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "0"))
-request_channel = environ.get("REQUEST_CHANNEL", "-1002887743917")
+request_channel = environ.get("REQUEST_CHANNEL", "-1002092588859")
 REQUEST_CHANNEL = (
     int(request_channel)
     if request_channel and id_pattern.search(request_channel)
     else None
 )
-MOVIE_UPDATE_CHANNEL = int(environ.get("MOVIE_UPDATE_CHANNEL", "-1002591289243"))
+MOVIE_UPDATE_CHANNEL = int(environ.get("MOVIE_UPDATE_CHANNEL", "-1002013067167"))
 
 # Added Link Here Not Id
-SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/+BYyE_SUwQqRjYzY1")
-MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/+F0knkChzc2YxNGY1")
+SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/+51JmDnxIh4QyOWU1")
+MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/+XQ23rujuRJEyOWZl")
 
 # Verification
 IS_VERIFY = is_enabled("IS_VERIFY", False)
@@ -145,7 +145,7 @@ REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 
 
 # Other Funtions
-FILE_AUTO_DEL_TIMER = int(environ.get("FILE_AUTO_DEL_TIMER", "600"))
+FILE_AUTO_DEL_TIMER = int(environ.get("FILE_AUTO_DEL_TIMER", "300"))
 AUTO_FILTER = is_enabled("AUTO_FILTER", True)
 IS_PM_SEARCH = is_enabled("IS_PM_SEARCH", False)
 IS_SEND_MOVIE_UPDATE = is_enabled(
@@ -160,7 +160,7 @@ IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 LONG_IMDB_DESCRIPTION = is_enabled("LONG_IMDB_DESCRIPTION", False)
 PROTECT_CONTENT = is_enabled("PROTECT_CONTENT", False)
 SPELL_CHECK = is_enabled("SPELL_CHECK", True)
-LINK_MODE = is_enabled("LINK_MODE", True)
+LINK_MODE = is_enabled("LINK_MODE", False)
 TMDB_API_KEY = environ.get("TMDB_API_KEY", "")
 
 # Online Streaming And Download
