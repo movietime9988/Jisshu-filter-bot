@@ -145,7 +145,7 @@ REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 
 
 # Other Funtions
-FILE_AUTO_DEL_TIMER = int(environ.get("FILE_AUTO_DEL_TIMER", "0"))
+FILE_AUTO_DEL_TIMER = int(environ.get("FILE_AUTO_DEL_TIMER", "18000"))
 AUTO_FILTER = is_enabled("AUTO_FILTER", True)
 IS_PM_SEARCH = is_enabled("IS_PM_SEARCH", False)
 IS_SEND_MOVIE_UPDATE = is_enabled(
