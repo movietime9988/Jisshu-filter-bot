@@ -55,7 +55,7 @@ COLLECTION_NAME = environ.get("COLLECTION_NAME", "jisshu")
 # Other Channel's
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002049582775"))
 DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "0"))
-request_channel = environ.get("REQUEST_CHANNEL", "-1002092588859")
+request_channel = environ.get("REQUEST_CHANNEL", "-1001507292115")
 REQUEST_CHANNEL = (
     int(request_channel)
     if request_channel and id_pattern.search(request_channel)
@@ -65,7 +65,7 @@ MOVIE_UPDATE_CHANNEL = int(environ.get("MOVIE_UPDATE_CHANNEL", "-1002013067167")
 
 # Added Link Here Not Id
 SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/+51JmDnxIh4QyOWU1")
-MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/+XQ23rujuRJEyOWZl")
+MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/+fG4KpJA02zcxZTI1")
 
 # Verification
 IS_VERIFY = is_enabled("IS_VERIFY", False)
